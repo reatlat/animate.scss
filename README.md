@@ -1,4 +1,4 @@
-# Animate.scss
+# Animate.scss [<img src="http://benschwarz.github.io/bower-badges/badge@2x.png" width="130" height="30">](#user-content-bower-support)
 A Scss version of [Dan Eden's](https://github.com/daneden) [Animate.css](http://daneden.me/animate)
 
 ## Features
