@@ -1,0 +1,28 @@
+{
+  "name": "animate.scss",
+  "version": "1.0.0",
+  "homepage": "https://github.com/reatlat/animate.scss.git",
+  "authors": [
+    "Alex Zappa <reatlat@gmail.com> (http://www.reatlat.net/)"
+  ],
+  "description": "A Scss library of Dan Eden's Animate.css",
+  "main": "_animate.scss",
+  "keywords": [
+    "animate.scss",
+    "animate-scss",
+    "animate.sass",
+    "animate-sass",
+    "animate.css",
+    "animate-css",
+    "scss",
+    "sass",
+    "css",
+    "css3-animations"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+  ]
+}
