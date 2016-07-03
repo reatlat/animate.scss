@@ -51,12 +51,12 @@ Add animate-scss to your project using [Bower](http://bower.io)
 bower.json dependency
 ````
 "dependencies": {
-  "animate-scss": "1.0.0"
+  "animate-scss-edition": "1.0.0"
 }
 ````
 
 Command line
-`bower install animate.scss`
+`bower install animate-scss-edition`
 
 ## Usage
 To use animate.scss in your project, you will need to have Sass installed. [Visit the Sass site](http://sass-lang.com/) to find out how to do this.
