@@ -8,12 +8,12 @@ animate-sass has a couple of features to make the most of what Sass has to offer
 The `_animate.scss` file includes a base sass file that contains the base css rules for animate.scss to work.
 
 ### Settings
-The settings file defines a range of default [Sass variables](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#variables_) which are used by some of the animation modules. You can override the defaults in your own settings or style sass file(s).
+The settings file defines a range of default [Sass variables](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#variables_) which are used by some of the animation modules. You can comment the defaults in your own _animate.scss file.
 
 ####Animation Module loading
-The settings file also sets all animation modules to false (nothing gets loaded).
+The _animate.scss file also sets all animation modules to true (uncomment).
 
-To include an animation module in your project, simply override the $use[moduleName] variable in your own settings file to true.
+To include an animation module in your project, simply uncomment animation modules in your own _animate.scss & comment all unused animation modules.
 
 By only choosing the animation modules you need, you're keeping the compiled css at it's leanest!
 
@@ -25,8 +25,7 @@ Eg:
 @import "animation/pulse";
 ````
 
-Modules are arranged by the following animation types;
-
+Modules are arranged by the following animation types:
 - Attention Seekers
 - Bouncing Entrances
 - Bouncing Exits
@@ -59,6 +58,7 @@ Command line
 `bower install animate-scss-edition`
 
 ## Usage
+### Base useage
 To use animate.scss in your project, you will need to have Sass installed. [Visit the Sass site](http://sass-lang.com/) to find out how to do this.
 
 Once Sass has been installed, you can download or clone this repo into your project's `css` folder and import `animate.scss` into your main Sass stylesheet.
@@ -81,6 +81,22 @@ Finally in your markup, simply add the class `animated` to an element, along wit
 ````
 
 That's it! You've got a CSS animated element. Super!
+
+### GulpJS
+For compile you own animate.css via [GulpJS](http://gulpjs.com/).
+
+Install gulp client:
+```
+npm install
+```
+Run gulp task:
+```
+gulp animate
+```
+or just
+```
+gulp
+```
 
 ## Questions/Comments
 You can follow me / ask questions on twitter: [@reatlat](http://www.twitter.com/reatlat)
